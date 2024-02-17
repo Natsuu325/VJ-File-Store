@@ -32,13 +32,13 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "27758492"))
 API_HASH = environ.get("API_HASH", "8057a8e818321490cdbd76f3199d3288")
-ADMINS = int(environ.get("ADMINS", "5694206162 1833064017"))
+ADMINS = int(environ.get("ADMINS", ""))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://natsuu325:Natsu2005@cluster0.i9n0aj7.mongodb.net/?retryWrites=true&w=majority")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
+CDB_NAME = environ.get("CDB_NAME", "natsuu325")
 DB_URI = environ.get("DB_URI", "mongodb+srv://natsuu325:Natsu2005@cluster0.i9n0aj7.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+DB_NAME = environ.get("DB_NAME", "natsuu325")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -55,7 +55,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002122461301"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('SUMP', '')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
